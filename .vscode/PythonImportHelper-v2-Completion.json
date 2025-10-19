@@ -1,0 +1,711 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGES",
+        "importPath": "messages",
+        "description": "messages",
+        "isExtraImport": true,
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "show_message",
+        "importPath": "messages",
+        "description": "messages",
+        "isExtraImport": true,
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "TUTORIAL",
+        "importPath": "messages",
+        "description": "messages",
+        "isExtraImport": true,
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGES",
+        "importPath": "messages",
+        "description": "messages",
+        "isExtraImport": true,
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGES",
+        "importPath": "messages",
+        "description": "messages",
+        "isExtraImport": true,
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "show_message",
+        "importPath": "messages",
+        "description": "messages",
+        "isExtraImport": true,
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "Application",
+        "importPath": "prompt_toolkit.application",
+        "description": "prompt_toolkit.application",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.application",
+        "documentation": {}
+    },
+    {
+        "label": "Validator",
+        "importPath": "prompt_toolkit.validation",
+        "description": "prompt_toolkit.validation",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.validation",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "prompt_toolkit.validation",
+        "description": "prompt_toolkit.validation",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.validation",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_toolkit.shortcuts.dialogs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "prompt_toolkit.shortcuts.dialogs",
+        "description": "prompt_toolkit.shortcuts.dialogs",
+        "detail": "prompt_toolkit.shortcuts.dialogs",
+        "documentation": {}
+    },
+    {
+        "label": "BaseStyle",
+        "importPath": "prompt_toolkit.shortcuts.dialogs",
+        "description": "prompt_toolkit.shortcuts.dialogs",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.shortcuts.dialogs",
+        "documentation": {}
+    },
+    {
+        "label": "_T",
+        "importPath": "prompt_toolkit.shortcuts.dialogs",
+        "description": "prompt_toolkit.shortcuts.dialogs",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.shortcuts.dialogs",
+        "documentation": {}
+    },
+    {
+        "label": "get_app",
+        "importPath": "prompt_toolkit.shortcuts.dialogs",
+        "description": "prompt_toolkit.shortcuts.dialogs",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.shortcuts.dialogs",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "importPath": "prompt_toolkit.shortcuts.dialogs",
+        "description": "prompt_toolkit.shortcuts.dialogs",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.shortcuts.dialogs",
+        "documentation": {}
+    },
+    {
+        "label": "KeyBindings",
+        "importPath": "prompt_toolkit.key_binding",
+        "description": "prompt_toolkit.key_binding",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding",
+        "documentation": {}
+    },
+    {
+        "label": "KeyPressEvent",
+        "importPath": "prompt_toolkit.key_binding",
+        "description": "prompt_toolkit.key_binding",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding",
+        "documentation": {}
+    },
+    {
+        "label": "load_key_bindings",
+        "importPath": "prompt_toolkit.key_binding.defaults",
+        "description": "prompt_toolkit.key_binding.defaults",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding.defaults",
+        "documentation": {}
+    },
+    {
+        "label": "focus_next",
+        "importPath": "prompt_toolkit.key_binding.bindings.focus",
+        "description": "prompt_toolkit.key_binding.bindings.focus",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding.bindings.focus",
+        "documentation": {}
+    },
+    {
+        "label": "focus_previous",
+        "importPath": "prompt_toolkit.key_binding.bindings.focus",
+        "description": "prompt_toolkit.key_binding.bindings.focus",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding.bindings.focus",
+        "documentation": {}
+    },
+    {
+        "label": "KeyBindings",
+        "importPath": "prompt_toolkit.key_binding.key_bindings",
+        "description": "prompt_toolkit.key_binding.key_bindings",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding.key_bindings",
+        "documentation": {}
+    },
+    {
+        "label": "merge_key_bindings",
+        "importPath": "prompt_toolkit.key_binding.key_bindings",
+        "description": "prompt_toolkit.key_binding.key_bindings",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.key_binding.key_bindings",
+        "documentation": {}
+    },
+    {
+        "label": "Layout",
+        "importPath": "prompt_toolkit.layout",
+        "description": "prompt_toolkit.layout",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.layout",
+        "documentation": {}
+    },
+    {
+        "label": "HSplit",
+        "importPath": "prompt_toolkit.layout.containers",
+        "description": "prompt_toolkit.layout.containers",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.layout.containers",
+        "documentation": {}
+    },
+    {
+        "label": "Dialog",
+        "importPath": "prompt_toolkit.widgets",
+        "description": "prompt_toolkit.widgets",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "prompt_toolkit.widgets",
+        "description": "prompt_toolkit.widgets",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "prompt_toolkit.widgets",
+        "description": "prompt_toolkit.widgets",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "TextArea",
+        "importPath": "prompt_toolkit.widgets",
+        "description": "prompt_toolkit.widgets",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "prompt_toolkit.styles",
+        "description": "prompt_toolkit.styles",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "prompt_toolkit.styles",
+        "description": "prompt_toolkit.styles",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.styles",
+        "documentation": {}
+    },
+    {
+        "label": "AnyFormattedText",
+        "importPath": "prompt_toolkit.formatted_text",
+        "description": "prompt_toolkit.formatted_text",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.formatted_text",
+        "documentation": {}
+    },
+    {
+        "label": "CursorShape",
+        "importPath": "prompt_toolkit.cursor_shapes",
+        "description": "prompt_toolkit.cursor_shapes",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.cursor_shapes",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "STYLES",
+        "importPath": "style",
+        "description": "style",
+        "isExtraImport": true,
+        "detail": "style",
+        "documentation": {}
+    },
+    {
+        "label": "STYLES",
+        "importPath": "style",
+        "description": "style",
+        "isExtraImport": true,
+        "detail": "style",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "manager",
+        "description": "manager",
+        "isExtraImport": true,
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "application",
+        "description": "application",
+        "isExtraImport": true,
+        "detail": "application",
+        "documentation": {}
+    },
+    {
+        "label": "AVAILABLE_ITEMS",
+        "importPath": "items",
+        "description": "items",
+        "isExtraImport": true,
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_items",
+        "importPath": "items",
+        "description": "items",
+        "isExtraImport": true,
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "importPath": "items",
+        "description": "items",
+        "isExtraImport": true,
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "show_items",
+        "importPath": "items",
+        "description": "items",
+        "isExtraImport": true,
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerValidator",
+        "kind": 6,
+        "importPath": "application",
+        "description": "application",
+        "peekOfCode": "class IntegerValidator(Validator):\n    def __init__(self, min_value: int = None, max_value: int = None):\n        super().__init__()\n        self.min_value = min_value\n        self.max_value = max_value\n    def validate(self, document):\n        text = document.text\n        if text and ((not text.isdigit()) or (self.max_value and self.max_value < int(text)) or (self.min_value and self.min_value > int(text))):  # Only attempt conversion if there's text\n            raise ValidationError(\n                message=random.choice(MESSAGES['invalid_input']),",
+        "detail": "application",
+        "documentation": {}
+    },
+    {
+        "label": "fixed_button_dialog",
+        "kind": 2,
+        "importPath": "application",
+        "description": "application",
+        "peekOfCode": "def fixed_button_dialog(\n    title: AnyFormattedText = \"\",\n    text: AnyFormattedText = \"\",\n    buttons: list[tuple[str, _T]] = [],\n    style: BaseStyle | None = None,\n) -> Application[_T]:\n    def button_handler(v: _T) -> None:\n        get_app().exit(result=v)\n    dialog = Dialog(\n        title=title,",
+        "detail": "application",
+        "documentation": {}
+    },
+    {
+        "label": "uppercaseDialogInput",
+        "kind": 2,
+        "importPath": "application",
+        "description": "application",
+        "peekOfCode": "def uppercaseDialogInput(title:str, text:str, style: Style):\n    # Create the TextArea (input field)\n    input_field = TextArea(multiline=False)\n    # Key bindings for uppercase enforcement\n    kb = KeyBindings()\n    @kb.add(\"<any>\")\n    def _(event: KeyPressEvent):\n        \"\"\"Force all typed letters to uppercase.\"\"\"\n        data = event.data\n        buf = event.app.current_buffer",
+        "detail": "application",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class Item:\n    \"\"\"Base class for all items.\"\"\"\n    def __init__(self, name: str, description: str, rarity: float = 1.0):\n        self.name = name\n        self.description = description\n        self.rarity = rarity  # Higher values = more common\n    def use(self, game_state: Dict) -> Dict:\n        \"\"\"Use the item and return modified game state.\"\"\"\n        return game_state\n    def can_use(self, game_state: Dict) -> bool:",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "Syringe",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class Syringe(Item):\n    \"\"\"Gives you +1 health permanently.\"\"\"\n    def __init__(self):\n        super().__init__(\"Syringe\", \"Gives you +1 health\", 0.6)\n    def use(self, game_state: Dict) -> Dict:\n        current_player = game_state.get('shooting_side', 'player')\n        if current_player == 'player':\n            game_state['player_lives'] = game_state.get('player_lives', 1) + 1\n            show_message('item', \"Syringe Used\", \n                        \"*INJECT* The medicine flows through your veins. +1 Life!\")",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "BrokenSyringe",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class BrokenSyringe(Item):\n    \"\"\"Gives you +1 health for one turn.\"\"\"\n    def __init__(self):\n        super().__init__(\"Broken Syringe\", \"Gives you +1 health for one turn\", 0.7)\n    def use(self, game_state: Dict) -> Dict:\n        current_player = game_state.get('shooting_side', 'player')\n        # Initialize temp health tracking if not exists\n        if 'temp_health' not in game_state:\n            game_state['temp_health'] = {'player': 0, 'dealer': 0, 'turns_left': {'player': 0, 'dealer': 0}}\n        game_state['temp_health'][current_player] = 1",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "PoisonedBear",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class PoisonedBear(Item):\n    \"\"\"Deals -1 health for two turns.\"\"\"\n    def __init__(self):\n        super().__init__(\"Poisoned Bear\", \"Deals -1 health for two turns\", 0.4)\n    def use(self, game_state: Dict) -> Dict:\n        current_player = game_state.get('shooting_side', 'player')\n        target = 'dealer' if current_player == 'player' else 'player'\n        # Initialize poison tracking if not exists\n        if 'poison_damage' not in game_state:\n            game_state['poison_damage'] = {'player': 0, 'dealer': 0, 'turns_left': {'player': 0, 'dealer': 0}}",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyChamber",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class EmptyChamber(Item):\n    \"\"\"Force a reload of the current bullets.\"\"\"\n    def __init__(self):\n        super().__init__(\"Empty Chamber\", \"Force a reload of the current bullets\", 0.5)\n    def use(self, game_state: Dict) -> Dict:\n        # Clear the current chamber\n        game_state['chamber_list'] = []\n        game_state['chamber_index'] = 0\n        game_state['force_reload'] = True\n        show_message('item', \"Empty Chamber Used\", ",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "SniperBullets",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class SniperBullets(Item):\n    \"\"\"Adds a -2 health bullet in a random place in the chamber.\"\"\"\n    def __init__(self):\n        super().__init__(\"Sniper Bullets\", \"Adds a -2 health bullet in a random place\", 0.3)\n    def use(self, game_state: Dict) -> Dict:\n        chamber_list = game_state.get('chamber_list', [])\n        chamber_index = game_state.get('chamber_index', 0)\n        if chamber_index < len(chamber_list):\n            # Add sniper bullet at random position in remaining chamber\n            remaining_positions = len(chamber_list) - chamber_index",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "ShinyCoin",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class ShinyCoin(Item):\n    \"\"\"Flip a coin. If you win, you get +1 health; if you lose, +1 health for the opponent.\"\"\"\n    def __init__(self):\n        super().__init__(\"Shiny Coin\", \"Coin flip: Win = +1 health, Lose = opponent +1 health\", 0.6)\n    def use(self, game_state: Dict) -> Dict:\n        current_player = game_state.get('shooting_side', 'player')\n        opponent = 'dealer' if current_player == 'player' else 'player'\n        # Flip coin (50/50 chance)\n        coin_result = random.choice([True, False])\n        if coin_result:",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "BloodyCoin",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class BloodyCoin(Item):\n    \"\"\"Flip a coin. If you win, -1 health for the opponent; if you lose, -1 health for you.\"\"\"\n    def __init__(self):\n        super().__init__(\"Bloody Coin\", \"Coin flip: Win = opponent -1 health, Lose = you -1 health\", 0.4)\n    def use(self, game_state: Dict) -> Dict:\n        current_player = game_state.get('shooting_side', 'player')\n        opponent = 'dealer' if current_player == 'player' else 'player'\n        # Flip coin (50/50 chance)\n        coin_result = random.choice([True, False])\n        if coin_result:",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "AVAILABLE_ITEMS",
+        "kind": 6,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "class AVAILABLE_ITEMS(Enum):\n    Syringe = Syringe\n    BrokenSyringe = BrokenSyringe\n    PoisonedBear = PoisonedBear\n    EmptyChamber = EmptyChamber\n    ShinyCoin = ShinyCoin\n    BloodyCoin = BloodyCoin\ndef get_random_items(count: int = 2) -> List[Item]:\n    \"\"\"Get random items based on rarity weights.\"\"\"\n    items = []",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_items",
+        "kind": 2,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "def get_random_items(count: int = 2) -> List[Item]:\n    \"\"\"Get random items based on rarity weights.\"\"\"\n    items = []\n    for _ in range(count):\n        # Create weighted choices based on rarity\n        weights = [item_class.value().rarity for item_class in list(AVAILABLE_ITEMS)]\n        item_class = random.choices(list(AVAILABLE_ITEMS), weights=weights)[0].value()\n        items.append(item_class)\n    return items\ndef show_items(items: List[Item]) -> None:",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "show_items",
+        "kind": 2,
+        "importPath": "items",
+        "description": "items",
+        "peekOfCode": "def show_items(items: List[Item]) -> None:\n    \"\"\"Display available items to the player.\"\"\"\n    if not items:\n        show_message('item', \"Items\", \"No items available.\")\n        return\n    item_text = \"Available Items:\\n\\n\"\n    for i, item in enumerate(items, 1):\n        item_text += f\"{i}. {item.name}\\n   {item.description}\\n\\n\"\n    show_message('item', \"Your Items\", item_text.strip())",
+        "detail": "items",
+        "documentation": {}
+    },
+    {
+        "label": "weighted_choice",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def weighted_choice(choices: Dict[str, float]) -> str:\n    \"\"\"Make a weighted random choice from a dictionary of choices with weights.\"\"\"\n    total = sum(choices.values())\n    r = random.uniform(0, total)\n    upto = 0\n    for choice, weight in choices.items():\n        if upto + weight >= r:\n            return choice\n        upto += weight\n    return list(choices.keys())[0]  # Fallback",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "show_stats",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def show_stats(title: str, player_lives: int, dealer_lives: int, player_name: str) -> None:\n    \"\"\"Show the current game stats.\"\"\"\n    show_message('stats', title,\n        f\"   {player_name}    |    DEALER   \\n\"\n        f\"{str(player_lives).center(6+len(player_name))} | {str(dealer_lives).center(12)}\"\n    )\ndef end_game(player_name: str, game_state: dict[str]) -> bool:\n    \"\"\"Ask the player if they want to play again.\"\"\"\n    if game_state[\"player_lives\"] <= 0:\n        show_message('game_over', \"Save-And-Loaded: Game Over\", random.choice(MESSAGES[\"player_dies_by_poison\" if game_state['poison_damage']['turns_left'][\"player\"] > 0 else \"game_over\"]))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "end_game",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def end_game(player_name: str, game_state: dict[str]) -> bool:\n    \"\"\"Ask the player if they want to play again.\"\"\"\n    if game_state[\"player_lives\"] <= 0:\n        show_message('game_over', \"Save-And-Loaded: Game Over\", random.choice(MESSAGES[\"player_dies_by_poison\" if game_state['poison_damage']['turns_left'][\"player\"] > 0 else \"game_over\"]))\n    if game_state[\"dealer_lives\"] <= 0:\n        show_message('play_again', \"Save-And-Loaded: You Won\", random.choice(MESSAGES[\"dealer_dies_by_poison\" if game_state['poison_damage']['turns_left'][\"dealer\"] > 0 else \"player_wins\"]))\n    restart =  dialogs.yes_no_dialog(\n        style=STYLES['play_again'],\n        title=\"Saved-And-Loaded: restart?\",\n        text=random.choice(MESSAGES['play_again_prompt']).format(name=player_name.upper()),",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "restart_game",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def restart_game():\n    \"\"\"Restart the game.\"\"\"\n    os.execv(sys.executable, [sys.executable] + sys.argv)\ndef use_item_menu(items: List[Item], game_state: Dict) -> Tuple[List[Item], Dict]:\n    \"\"\"Show item usage menu and handle item usage.\"\"\"\n    if not items:\n        show_message('item', \"Items\", \"No items can be used right now.\")\n        return items, game_state\n    # Filter usable items\n    usable_items = [item for item in items if item.can_use(game_state)]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "use_item_menu",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def use_item_menu(items: List[Item], game_state: Dict) -> Tuple[List[Item], Dict]:\n    \"\"\"Show item usage menu and handle item usage.\"\"\"\n    if not items:\n        show_message('item', \"Items\", \"No items can be used right now.\")\n        return items, game_state\n    # Filter usable items\n    usable_items = [item for item in items if item.can_use(game_state)]\n    if not usable_items:\n        show_message('item', \"Items\", \"No items can be used right now.\")\n        return items, game_state",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    \"\"\"Main game function.\"\"\"\n    try:\n        # Show start options\n        while True:\n            start_options = fixed_button_dialog(\n                style=STYLES['default'],\n                title=\"Saved-And-Loaded\",\n                buttons=[\n                    (\"START\", \"S\"),",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "show_bullets_loaded",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def show_bullets_loaded(chamber_list: List[Union[bool, str]]) -> None:\n    \"\"\"Show the bullets loaded in the chamber.\"\"\"\n    live_count = sum(1 for bullet in chamber_list if bullet is True)\n    blank_count = sum(1 for bullet in chamber_list if bullet is False)\n    sniper_count = sum(1 for bullet in chamber_list if bullet == 'SNIPER')\n    if sniper_count > 0:\n        show_message('stats', \"Save-And-Loaded: bullets loaded\",\n            \"   LIVE    |    BLANK   |   SNIPER   \\n\"\n            f\"{str(live_count).center(10)} | {str(blank_count).center(11)} | {str(sniper_count).center(11)}\"\n        )",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "process_poison_damage",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def process_poison_damage(game_state: Dict) -> Dict:\n    \"\"\"Process poison damage over time effects.\"\"\"\n    if 'poison_damage' not in game_state:\n        return game_state\n    poison_data = game_state['poison_damage']\n    for player in ['player', 'dealer']:\n        if poison_data['turns_left'][player] > 0:\n            # Apply poison damage\n            damage = poison_data[player]\n            current_lives = game_state.get(f'{player}_lives', 1)",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "process_temp_health",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def process_temp_health(game_state: Dict) -> Dict:\n    \"\"\"Process temporary health effects.\"\"\"\n    if 'temp_health' not in game_state:\n        return game_state\n    temp_data = game_state['temp_health']\n    for player in ['player', 'dealer']:\n        if temp_data['turns_left'][player] > 0:\n            # Decrease turns remaining\n            temp_data['turns_left'][player] -= 1\n            # Remove temp health if expired",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_effective_health",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def get_effective_health(player: str, game_state: Dict) -> int:\n    \"\"\"Get effective health including temporary health.\"\"\"\n    base_health = game_state.get(f'{player}_lives', 1)\n    temp_health = 0\n    if 'temp_health' in game_state:\n        temp_health = game_state['temp_health'].get(player, 0)\n    return base_health + temp_health\ndef apply_item_effects(bullet_type: Union[bool, str], damage: int, game_state: Dict, target: str) -> Tuple[Union[bool, str], int]:\n    \"\"\"Apply item effects and determine final damage.\"\"\"\n    # Handle sniper bullets",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "apply_item_effects",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def apply_item_effects(bullet_type: Union[bool, str], damage: int, game_state: Dict, target: str) -> Tuple[Union[bool, str], int]:\n    \"\"\"Apply item effects and determine final damage.\"\"\"\n    # Handle sniper bullets\n    if bullet_type == 'SNIPER':\n        damage = 2\n        show_message('live', \"SNIPER BULLET!\", \n                    \"**BANG** The sniper bullet tears through! DOUBLE DAMAGE!\")\n        return bullet_type, damage\n    # For regular bullets, check if it's live\n    is_live = bullet_type is True",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "handle_player_shot_self",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def handle_player_shot_self(bullet_type: Union[bool, str], player_lives: int, game_state: Dict) -> Tuple[int, bool]:\n    \"\"\"Handle when the player shoots themselves.\"\"\"\n    bullet_type, damage = apply_item_effects(bullet_type, 1, game_state, 'player')\n    # Check effective health including temporary health\n    effective_health = get_effective_health('player', game_state)\n    if bullet_type is True or bullet_type == 'SNIPER':\n        # Apply damage to effective health first\n        if effective_health > damage:\n            # Damage can be absorbed\n            temp_health = game_state.get('temp_health', {}).get('player', 0)",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "handle_player_shot_dealer",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def handle_player_shot_dealer(bullet_type: Union[bool, str], dealer_lives: int, game_state: Dict) -> Tuple[int, bool]:\n    \"\"\"Handle when the player shoots the dealer.\"\"\"\n    bullet_type, damage = apply_item_effects(bullet_type, 1, game_state, 'dealer')\n    # Check effective health including temporary health\n    effective_health = get_effective_health('dealer', game_state)\n    if bullet_type is True or bullet_type == 'SNIPER':\n        # Apply damage to effective health first\n        if effective_health > damage:\n            # Damage can be absorbed\n            temp_health = game_state.get('temp_health', {}).get('dealer', 0)",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "handle_dealer_shot_self",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def handle_dealer_shot_self(bullet_type: Union[bool, str], dealer_lives: int, game_state: Dict) -> Tuple[int, bool]:\n    \"\"\"Handle when the dealer shoots themselves.\"\"\"\n    bullet_type, damage = apply_item_effects(bullet_type, 1, game_state, 'dealer')\n    # Check effective health including temporary health\n    effective_health = get_effective_health('dealer', game_state)\n    if bullet_type is True or bullet_type == 'SNIPER':\n        # Apply damage to effective health first\n        if effective_health > damage:\n            # Damage can be absorbed\n            temp_health = game_state.get('temp_health', {}).get('dealer', 0)",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "handle_dealer_shot_player",
+        "kind": 2,
+        "importPath": "manager",
+        "description": "manager",
+        "peekOfCode": "def handle_dealer_shot_player(bullet_type: Union[bool, str], player_lives: int, game_state: Dict) -> Tuple[int, bool]:\n    \"\"\"Handle when the dealer shoots the player.\"\"\"\n    bullet_type, damage = apply_item_effects(bullet_type, 1, game_state, 'player')\n    # Check effective health including temporary health\n    effective_health = get_effective_health('player', game_state)\n    if bullet_type is True or bullet_type == 'SNIPER':\n        # Apply damage to effective health first\n        if effective_health > damage:\n            # Damage can be absorbed\n            temp_health = game_state.get('temp_health', {}).get('player', 0)",
+        "detail": "manager",
+        "documentation": {}
+    },
+    {
+        "label": "show_message",
+        "kind": 2,
+        "importPath": "messages",
+        "description": "messages",
+        "peekOfCode": "def show_message(style_name: str, title: str, text: str) -> None:\n    \"\"\"Show a message dialog with the specified style.\"\"\"\n    dialogs.message_dialog(style=STYLES[style_name], title=title, text=text).run()",
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "TUTORIAL",
+        "kind": 5,
+        "importPath": "messages",
+        "description": "messages",
+        "peekOfCode": "TUTORIAL = \"\"\"this game is all about strategy.\n    Saved-And-Loaded: a gun with random amount of blank and live bullets (blank=empty bullet, live=dangers bullet) is passed through the player and the dealer,\n    each time one of them can shoot their opponent or them selfs. if they shoot them self and it's blank they go again,\n    otherwise if it's live the side that got shot losses one life and the cycle continues\n    other game elements:\n    - the title of the rectangle above contains the name and the state of the game\n    - at the end of a turn the health of you and the dealer is shown\n    - if the chamber is empty a new random chamber is loaded\n    - the chamber is shown each time it's reloaded before it's randomized (including at the start)\n    ITEMS:",
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGES",
+        "kind": 5,
+        "importPath": "messages",
+        "description": "messages",
+        "peekOfCode": "MESSAGES = {\n    'chamber_prompt': [\n        \"Choose your fate: how many chambers will whisper your death?\",\n        \"More chambers, more chances... or is it more suffering?\",\n        \"Spin the wheel of pain. How many bullets shall we hide?\",\n        \"Ah, setting the stage. Pick your poison.\",\n        \"Numbers, chambers, bullets. Choose wisely.\"\n    ],\n    'invalid_input': [\n        \"Tsk-tsk. That's not how the game works.\",",
+        "detail": "messages",
+        "documentation": {}
+    },
+    {
+        "label": "STYLES",
+        "kind": 5,
+        "importPath": "style",
+        "description": "style",
+        "peekOfCode": "STYLES = {\n    'default': Style.from_dict({\n        'dialog': 'bg:''#362A2A',\n        'dialog.text': '#ffffff',\n        'dialog frame.label': 'bg:''#ffffff'' ''#000000',\n        'dialog.body': 'bg:''#000000'' ''#ffffff',\n        'dialog.shadow': 'bg:''#1a1a1a',\n        'button': '#c2a3a3',\n        'button.focused': 'bg:''#ffffff'' ''#000000',\n        'text-area': 'bg:''#000000'",
+        "detail": "style",
+        "documentation": {}
+    }
+]
