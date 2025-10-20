@@ -5,7 +5,7 @@ from typing import Dict, List
 from style import STYLES
 from manager import *
 from application import *
-from messages import TUTORIAL, MESSAGES
+from messages import TUTORIAL, TUTORIAL_ITEMS, MESSAGES
 from items import AVAILABLE_ITEMS, get_random_items, Item, show_items
 
 def weighted_choice(choices: Dict[str, float]) -> str:
@@ -106,7 +106,8 @@ def main():
             if start_options == "Q":
                 sys.exit()
             elif start_options == "T":
-                show_message('default', "Saved-And-Loaded: how to play", TUTORIAL)
+                show_message('default', "Saved-And-Loaded: (1) how to play", TUTORIAL)
+                show_message('default', "Saved-And-Loaded: (2) available items", TUTORIAL_ITEMS)
             else:
                 break
 
