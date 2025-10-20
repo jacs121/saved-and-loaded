@@ -1,0 +1,19 @@
+name: Update Repository Variable
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update_variable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Repository Variable
+        env:
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          NEW_VARIABLE_VALUE: ${{vars.NEXT_RELEASE_NUM }}+1
+        run: |
+          curl -X PATCH \
+          -H "Authorization: token $GH_PAT" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/${{ github.repository }}/actions/variables/NEXT_RELEASE_NUM" \
+          -d '{"value": "'"$NEW_VARIABLE_VALUE"'"}'
