@@ -12,22 +12,18 @@ TUTORIAL = """this game is all about strategy.
     - at the end of a turn the health of you and the dealer is shown
     - if the chamber is empty a new random chamber is loaded
     - the chamber is shown each time it's reloaded before it's randomized (including at the start)
-
-    ITEMS:
-    - Between reloads, both players receive random items
-    - Items can be used before shooting to gain advantages
-    - Items include: Syringe (+1 health), Broken Syringe (+1 temp health), Poison Tip (damage over time),
-      Empty Chamber (force reload), Sniper Bullets (add -2 damage bullet), Shiny Coin (beneficial gamble),
-      Bloody Coin (dangerous gamble)
 """
 
-TUTORIAL_ITEMS = """Syringe: Gives you +1 health permanently
-Broken Syringe: Gives you +1 health for one turn only
-Poison Bear: Deals -1 health to opponent for two turns
-Empty Chamber: Forces a reload of the current bullets
-Sniper Bullets: Adds a -2 health bullet in a random place in the chamber
-Shiny Coin: Coin flip: Win = +1 health, Lose = opponent +1 health
-Bloody Coin: Coin flip: Win and the opponent loses -1 health, Lose and you loses -1 health
+TUTORIAL_ITEMS = """
+Between reloads, both players receive random items, Items can be used before shooting to gain advantages
+- Items include:
+    SYRINGE: Gives you +1 health permanently
+    BROkEN SYRINGE: Gives you +1 health for one turn only
+    POISON BEAR: Deals -1 health to opponent for two turns
+    EMPTY CHAMBER: Forces a reload of the current bullets
+    SNIPER BULLETS: Adds a -2 health bullet in a random place in the chamber
+    SHINY COIN: Coin flip: Win = +1 health, Lose = opponent +1 health
+    BLOODY COIN: Coin flip: Win and the opponent loses -1 health, Lose and you loses -1 health
 """
 
 # Dialog message collections
