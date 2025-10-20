@@ -92,6 +92,7 @@ An enhanced Russian Roulette-style game featuring unique strategic items that ad
 - `messages.py` - Original game messages
 - `style.py` - Original styling
 - `items.py` - Complete item system implementation
+- `run.bat` - Opening the game in the console via batch
 
 ## How to Play
 
