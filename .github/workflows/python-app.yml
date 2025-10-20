@@ -24,7 +24,7 @@ jobs:
         pip install pyinstaller # Ensure PyInstaller is installed
 
     - name: Build executable with PyInstaller
-      run: pyinstaller --onefile main.py # Replace with your main script
+      run: pyinstaller --onefile main.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
@@ -33,7 +33,7 @@ jobs:
         path: dist/*.exe # Path to the generated executable
 
   create-release:
-    needs: build-windows-exe # This job depends on the successful build of the EXE
+    needs: build-windows-exe
     runs-on: ubuntu-latest # Can use any runner for release creation
     if: startsWith(github.ref, 'refs/tags/v')
 
