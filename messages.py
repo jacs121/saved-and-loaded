@@ -1,4 +1,5 @@
 import prompt_toolkit.shortcuts.dialogs as dialogs
+from prompt_toolkit.cursor_shapes import CursorShape
 from style import STYLES
 
 TUTORIAL = """this game is all about strategy.
@@ -311,4 +312,6 @@ MESSAGES = {
 
 def show_message(style_name: str, title: str, text: str) -> None:
     """Show a message dialog with the specified style."""
-    dialogs.message_dialog(style=STYLES[style_name], title=title, text=text).run()
+    msg = dialogs.message_dialog(style=STYLES[style_name], title=title, text=text)
+    msg.cursor = CursorShape.UNDERLINE
+    msg = msg.run()

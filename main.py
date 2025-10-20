@@ -37,9 +37,11 @@ def end_game(player_name: str, game_state: dict[str]) -> bool:
         style=STYLES['play_again'],
         title="Saved-And-Loaded: restart?",
         text=random.choice(MESSAGES['play_again_prompt']).format(name=player_name.upper()),
-        yes_text="play again",
-        no_text=""
-    ).run()
+        yes_text="Play Again",
+        no_text="Quit",
+    )
+    restart.cursor = CursorShape.UNDERLINE
+    restart = restart.run()
     
     if restart:
         restart_game()
@@ -115,20 +117,24 @@ def main():
         )
 
         # Get chamber count
-        chambers = int(dialogs.input_dialog(
+        chambers = dialogs.input_dialog(
             style=STYLES["default"],
             title="Saved-And-Loaded: set chamber amount (3-16)",
             text=random.choice(MESSAGES['chamber_prompt']),
             validator=IntegerValidator(3, 16)
-        ).run())
+        )
+        chambers.cursor = CursorShape.UNDERLINE
+        chambers = int(chambers.run())
 
         # Get lives count
-        player_lives = dealer_lives = int(dialogs.input_dialog(
+        player_lives = dealer_lives = dialogs.input_dialog(
             style=STYLES["default"],
             title="Saved-And-Loaded: set amount of lives (1-16)",
             text=random.choice(MESSAGES['lives_prompt']),
             validator=IntegerValidator(1, 16)
-        ).run())
+        )
+        player_lives.cursor = CursorShape.UNDERLINE
+        player_lives = int(player_lives.run())
 
         shooting_side = "player"
         player_items: list[Item] = []
@@ -212,14 +218,6 @@ def main():
                         text=random.choice(MESSAGES['player_turn']),
                         buttons=[("Shoot Yourself", "player"), ("Shoot Dealer", "dealer"), ("Quit", "quit")]
                     ).run()
-
-                    if shooting == "quit":
-                        if dialogs.yes_no_dialog(
-                            style=STYLES['default'],
-                            title="Quit Game",
-                            text="Are you sure you want to quit?"
-                        ).run():
-                            sys.exit()
                     
                     if shooting == "player":
                         # Player shoots themselves
