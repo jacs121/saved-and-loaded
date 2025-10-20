@@ -35,7 +35,6 @@ jobs:
   create-release:
     needs: build-windows-exe
     runs-on: ubuntu-latest # Can use any runner for release creation
-    if: startsWith(github.ref, 'refs/tags/v')
 
     steps:
     - name: Download artifact
