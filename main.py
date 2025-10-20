@@ -8,17 +8,6 @@ from application import *
 from messages import TUTORIAL, TUTORIAL_ITEMS, MESSAGES
 from items import AVAILABLE_ITEMS, get_random_items, Item, show_items
 
-def weighted_choice(choices: Dict[str, float]) -> str:
-    """Make a weighted random choice from a dictionary of choices with weights."""
-    total = sum(choices.values())
-    r = random.uniform(0, total)
-    upto = 0
-    for choice, weight in choices.items():
-        if upto + weight >= r:
-            return choice
-        upto += weight
-    return list(choices.keys())[0]  # Fallback
-
 def show_stats(title: str, player_lives: int, dealer_lives: int, player_name: str) -> None:
     """Show the current game stats."""
     show_message('stats', title,

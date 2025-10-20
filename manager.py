@@ -2,6 +2,17 @@ import random
 from typing import List, Tuple, Dict, Union
 from messages import MESSAGES, show_message
 
+def weighted_choice(choices: Dict[str, float]) -> str:
+    """Make a weighted random choice from a dictionary of choices with weights."""
+    total = sum(choices.values())
+    r = random.uniform(0, total)
+    upto = 0
+    for choice, weight in choices.items():
+        if upto + weight >= r:
+            return choice
+        upto += weight
+    return list(choices.keys())[0]  # Fallback
+
 def show_bullets_loaded(chamber_list: List[Union[bool, str]]) -> None:
     """Show the bullets loaded in the chamber."""
     live_count = sum(1 for bullet in chamber_list if bullet is True)
