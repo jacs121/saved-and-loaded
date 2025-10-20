@@ -337,3 +337,11 @@ def show_message(style_name: str, title: str, text: str) -> None:
     msg = dialogs.message_dialog(style=STYLES[style_name], title=title, text=text)
     msg.cursor = CursorShape.UNDERLINE
     msg = msg.run()
+
+
+def show_stats(title: str, player_lives: int, dealer_lives: int, player_name: str) -> None:
+    """Show the current game stats."""
+    show_message('stats', title,
+        f"   {player_name}    |    DEALER   \n"
+        f"{str(player_lives).center(6+len(player_name))} | {str(dealer_lives).center(12)}"
+    )

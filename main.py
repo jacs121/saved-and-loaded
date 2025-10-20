@@ -5,15 +5,8 @@ from typing import Dict, List
 from style import STYLES
 from manager import *
 from application import *
-from messages import TUTORIAL, TUTORIAL_ITEMS, MESSAGES
+from messages import TUTORIAL, TUTORIAL_ITEMS, MESSAGES, show_stats
 from items import AVAILABLE_ITEMS, get_random_items, Item, show_items
-
-def show_stats(title: str, player_lives: int, dealer_lives: int, player_name: str) -> None:
-    """Show the current game stats."""
-    show_message('stats', title,
-        f"   {player_name}    |    DEALER   \n"
-        f"{str(player_lives).center(6+len(player_name))} | {str(dealer_lives).center(12)}"
-    )
 
 def end_game(player_name: str, game_state: dict[str]) -> bool:
     """Ask the player if they want to play again."""
