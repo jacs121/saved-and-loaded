@@ -310,7 +310,7 @@ def main():
                 show_message('item', "Saved-And-Loaded: the dealer found an item",
                     random.choice(MESSAGES["dealer_found_item"])
                 )
-            
+
 
     except Exception as e:
         show_message('default', "Error", f"An error occurred: {str(e)}\nARGUMENTS: {e.args}")
