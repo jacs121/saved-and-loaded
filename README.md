@@ -1,8 +1,8 @@
-# Saved-And-Loaded: Enhanced Edition with Unique Items
+# Saved-And-Loaded
 
 An enhanced Russian Roulette-style game featuring unique strategic items that add depth and unpredictability to the classic gameplay.
 
-## What's New: Unique Item System
+## Unique Item System
 
 ### How Items Work
 
