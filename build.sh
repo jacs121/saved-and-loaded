@@ -2,6 +2,9 @@
 
 PLATFORM=$1
 
+# Install dependencies
+pip install --no-input pyinstaller
+
 if [ "$PLATFORM" = "windows" ]; then
     pyinstaller --noconfirm --onefile --noconsole \
         --name "Saved-And-Loaded-windows" \
