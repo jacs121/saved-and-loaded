@@ -6,19 +6,19 @@ PLATFORM=$1
 pip install --no-input pyinstaller
 
 if [ "$PLATFORM" = "windows" ]; then
-    pyinstaller --noconfirm --onefile --noconsole \
+    pyinstaller --noconfirm --onefile \
         --name "Saved-And-Loaded-windows" \
         --clean main.py
 
 elif [ "$PLATFORM" = "linux" ]; then
     pip install --no-input pyvirtualcam
-    pyinstaller --noconfirm --onefile --noconsole \
+    pyinstaller --noconfirm --onefile \
         --name "Saved-And-Loaded-linux.exe" \
         --noupx \
         --clean main.py
 
 elif [ "$PLATFORM" = "macos" ]; then
-    pyinstaller --noconfirm --onefile --noconsole \
+    pyinstaller --noconfirm --onefile \
         --name "Saved-And-Loaded-macos.exe" \
         --clean main.py
 
