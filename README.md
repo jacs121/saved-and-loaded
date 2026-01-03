@@ -1,6 +1,6 @@
 # Saved-And-Loaded
 
-An enhanced Russian Roulette-style game featuring unique strategic items that add depth and unpredictability to the classic gameplay.
+An enhanced Russian Roulette-style game with over 260 different dialog lines featuring unique strategic items that add depth and unpredictability to the classic gameplay.
 
 ## Unique Item System
 
