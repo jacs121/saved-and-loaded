@@ -1,7 +1,7 @@
 import random
 from typing import Dict, List
 from enum import Enum
-from messages import show_message
+from messages import show_message, MESSAGES
 
 class Item:
     """Base class for all items."""
@@ -142,14 +142,17 @@ class ShinyCoin(Item):
         
         if coin_result:
             # Player wins
-            game_state[f'{current_player}_lives'] = game_state.get(f'{current_player}_lives', 1) + 2
-            show_message('item', "Shiny Coin Used", 
-                        "*FLIP* *CLINK* HEADS! Lady luck smiles upon you. +1 Life!")
+            game_state[f'{current_player}_lives'] = game_state.get(f'{current_player}_lives', 1) + 1
         else:
             # Player loses
-            game_state[f'{opponent}_lives'] = game_state.get(f'{opponent}_lives', 1) + 2
-            show_message('item', "Shiny Coin Used", 
-                        f"*FLIP* *CLINK* TAILS! The coin betrays you. {opponent.title()} gains +1 Life!")
+            game_state[f'{opponent}_lives'] = game_state.get(f'{opponent}_lives', 1) + 1
+            
+        if coin_result == (current_player == "player"):
+            show_message('item', "Shiny Coin Used",
+                        "*FLIP* *CLINK* HEADS! the player wins: +1 Life!\n"+random.choice(MESSAGES['player_win_shiny_coin']))
+        else:
+            show_message('item', "Shiny Coin Used",
+                        f"*FLIP* *CLINK* TAILS! the dealer wins: +1 Life!\n"+random.choice(MESSAGES['player_win_shiny_coin']))
         
         return game_state
 
@@ -161,22 +164,29 @@ class BloodyCoin(Item):
     def use(self, game_state: Dict) -> Dict:
         current_player = game_state.get('shooting_side', 'player')
         opponent = 'dealer' if current_player == 'player' else 'player'
-        
+
         # Flip coin (50/50 chance)
         coin_result = random.choice([True, False])
         
         if coin_result:
-            # Player wins - opponent takes damage
+            # user wins - opponent takes damage
             current_lives = game_state.get(f'{opponent}_lives', 1)
-            game_state[f'{opponent}_lives'] = max(0, current_lives - 2)
-            show_message('item', "Bloody Coin Used", 
+            game_state[f'{opponent}_lives'] = max(0, current_lives - 1)
+            show_message('item', "Bloody Coin Used",
                         f"*FLIP* *SPLAT* HEADS! The bloody coin claims its victim. {opponent.title()} loses 1 Life!")
         else:
-            # Player loses - they take damage
+            # opponent wins - they take damage
             current_lives = game_state.get(f'{current_player}_lives', 1)
-            game_state[f'{current_player}_lives'] = max(0, current_lives - 2)
-            show_message('item', "Bloody Coin Used", 
+            game_state[f'{current_player}_lives'] = max(0, current_lives - 1)
+            show_message('item', "Bloody Coin Used",
                         "*FLIP* *SPLAT* TAILS! The coin thirsts for YOUR blood. You lose 1 Life!")
+
+        if coin_result == (current_player == "player"):
+            show_message('item', "Shiny Coin Used",
+                        "*FLIP* *CLINK* HEADS! the player loses: -1 Life!\n"+random.choice(MESSAGES['player_win_bloody_coin']))
+        else:
+            show_message('item', "Shiny Coin Used",
+                        f"*FLIP* *CLINK* TAILS! the dealer loses: -1 Life!\n"+random.choice(MESSAGES['player_win_bloody_coin']))
         return game_state
 
 

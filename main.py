@@ -64,8 +64,6 @@ def use_item_menu(items: List[Item], game_state: Dict) -> Tuple[List[Item], Dict
     if isinstance(choice, int) and 0 <= choice < len(usable_items):
         selected_item = usable_items[choice]
         game_state = selected_item.use(game_state)
-        if type(selected_item) == AVAILABLE_ITEMS.PoisonedBear:
-            random.choice(MESSAGES["dealer_used_"+str(type(selected_item))])
         items.remove(selected_item)  # Remove used item
     
     return items, game_state
@@ -225,18 +223,24 @@ def main():
                         if usable_dealer_items and random.random() < 0.6:  # 60% chance to use item
                             selected_item = random.choice(usable_dealer_items)
                             game_state = selected_item.use(game_state)
+
+                            # Show dealer item usage message
+                            item_type = type(selected_item).__name__
+                            show_message('item', "Saved-And-Loaded: dealer uses item",
+                                        f"The dealer used: {selected_item.name}\n{random.choice(MESSAGES.get('dealer_used_' + item_type.lower(), ['Something special happened.']))}")
+
                             dealer_items.remove(selected_item)
-                            
+
                             # Update from game state
                             player_lives = game_state['player_lives']
                             dealer_lives = game_state['dealer_lives']
                             chamber_list = game_state['chamber_list']
                             chamber_index = game_state['chamber_index']
-                            
+
                             # Check if chamber is now empty or force reload triggered
                             if chamber_index >= len(chamber_list) or game_state.get('force_reload', False):
                                 break
-                            
+
                             bullet_in_chamber = chamber_list[chamber_index]
                     
                     # Dealer's turn
@@ -259,24 +263,20 @@ def main():
                     
                     if shooting == "dealer":
                         # Dealer shoots themselves
-                        show_message('default', "Saved-And-Loaded: dealer's turn", 
+                        show_message('default', "Saved-And-Loaded: dealer's turn",
                                     "action: (SHOOTS HIMSELF)\n" + random.choice(MESSAGES['dealer_shoot_self']))
-                        
+
                         dealer_lives, game_over = handle_dealer_shot_self(bullet_in_chamber, dealer_lives, game_state)
                         if game_over:
-                            if end_game(player_name, "player"):
-                                restart_game()
-                            sys.exit()
+                            end_game(player_name, game_state)
                     else:
                         # Dealer shoots player
-                        show_message('default', "Saved-And-Loaded: dealer's turn", 
+                        show_message('default', "Saved-And-Loaded: dealer's turn",
                                     "action: (SHOOTS YOU)\n" + random.choice(MESSAGES['dealer_shoots_player']))
-                        
+
                         player_lives, game_over = handle_dealer_shot_player(bullet_in_chamber, player_lives, game_state)
                         if game_over:
-                            if end_game(player_name, "dealer"):
-                                restart_game()
-                            sys.exit()
+                            end_game(player_name, game_state)
                 
                 # Show stats after each turn
                 show_stats("Saved-And-Loaded: health left", player_lives, dealer_lives, player_name)
@@ -307,7 +307,6 @@ def main():
                 )
 
             if new_dealer_items:
-                item_names = [item.name for item in new_player_items]
                 show_message('item', "Saved-And-Loaded: the dealer found an item",
                     random.choice(MESSAGES["dealer_found_item"])
                 )

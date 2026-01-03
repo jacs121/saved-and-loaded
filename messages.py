@@ -308,11 +308,78 @@ MESSAGES = {
     ],
     'player_dies_by_poison': [
         "3.. 2.. 1.. and.. DARK",
-        "it's passed your bed time, SLEEP",
+        "it's passed your bed time, NOW SLEEP",
         "poison is still a lame way to...",
-        "sleepy head going to die",
+        "sleepy head going to die soon",
         "at least it's not a bullet"
     ],
+    # Dealer item usage messages
+    'dealer_used_syringe': [
+        "I do love a good pick-me-up. Care for some? No? Your loss.",
+        "Fresh supplies. The night is young, and so am I.",
+        "A little boost. Wouldn't want to tire before the real fun begins.",
+        "Medicine tastes better when it's not yours.",
+    ],
+    'dealer_used_broken_syringe': [
+        "Desperate times call for desperate measures.",
+        "This one's on borrowed time. So are you.",
+        "Half a dose is better than none... right?",
+        "I'll take my chances. Will you?",
+    ],
+    'dealer_used_poisoned_bear': [
+        "A gift from my friends. Consider it... slow torture.",
+        "The venom's already spreading. Can you feel it?",
+        "I do so love watching things deteriorate.",
+        "This won't kill you immediately. I promise.",
+        "This won't be painless. I promise you.",
+    ],
+    'dealer_used_empty_chamber': [
+        "Boring. Let's shuffle things around.",
+        "This game needs more chaos, don't you think?",
+        "A reset. Just when things were getting interesting.",
+        "The chamber breathes again. and sadly So do I.",
+    ],
+    'dealer_used_sniper_bullets': [
+        "This one's special. Care to say goodbye to your insides?",
+        "Sniper rounds for special occasions. And this one is.",
+        "I do so enjoy the sound of distant pain.",
+        "Think fast little one... or don't.",
+    ],
+    'dealer_used_shiny_coin': [
+        "Heads I win, tails you lose. Statistically speaking.",
+        "A gamble? With me? How delightfully foolish.",
+        "Let's see what fate thinks of your face.",
+        "The coin knows who's leaving in a box.",
+    ],
+    'dealer_used_bloody_coin': [
+        "Blood for the blood god! ...I mean, the coin.",
+        "Heads you die, tails you die. Try not to think about it.",
+        "The coin thirsts. And so do I.",
+        "May the worse player win... Or lose.",
+    ],
+    # coin use
+    'dealer_win_shiny_coin': [
+        "Ooh... lucky me.",
+        "And I'm not sharing.",
+        "Well, well, well, look what I found.",
+    ],
+    'player_win_shiny_coin': [
+        "Wait, you got it? let me take care of that mistake.",
+        "That won't help you you know.",
+        "Lady luck smiles upon you, that would be the first and last time."
+        "good, one extra chance to kill you."
+    ],
+    'dealer_win_bloody_coin': [
+        "Don't worry you shouldn't feel a thing",
+        "lets see how you act without this one.",
+        "oops, good your life.",
+    ],
+    'player_win_bloody_coin': [
+        "evening the odds, are we?",
+        "oh now Im gonna kill you.",
+        "it's sad, you think thats gonna help you."
+        "you f***!"
+    ]
 }
 
 def show_message(style_name: str, title: str, text: str) -> None:
