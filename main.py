@@ -6,7 +6,7 @@ from style import STYLES
 from manager import *
 from application import *
 from messages import TUTORIAL, TUTORIAL_ITEMS, MESSAGES, show_stats
-from items import AVAILABLE_ITEMS, get_random_items, Item, show_items
+from items import get_random_items, Item, show_items
 
 def end_game(player_name: str, game_state: dict[str]) -> bool:
     """Ask the player if they want to play again."""
