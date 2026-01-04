@@ -3,7 +3,7 @@
 PLATFORM=$1
 
 # Install dependencies
-pip install --no-input pyinstaller
+pip install --no-input pyinstaller incomparability
 
 if [ "$PLATFORM" = "windows" ]; then
     pyinstaller --noconfirm --onefile \
